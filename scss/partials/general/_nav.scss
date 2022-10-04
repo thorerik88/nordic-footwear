@@ -1,0 +1,152 @@
+
+.nav {
+    @include flexCenter; 
+    box-shadow: 0 3px 10px rgba(0,0,0, .16);
+    padding: 0 2rem;
+    position: relative;
+
+    &__logo {
+        order: 2;
+        background-image: url("./../assets/mobile/logo_150x45.svg");
+        background-size: cover;
+        width: 150px;
+        height: 45px;
+        margin: 1.5rem 1rem;
+    }
+
+    &__navmenu {
+        order: 1;
+        width: 15%;
+
+        &__wrapper {
+            
+            &__list {
+                display: none;
+            }
+        }
+    }
+
+    &__icons {
+        display: flex;
+        order: 3;
+        width: 15%;
+
+        &__shopping-cart {
+            margin-left: auto;
+            margin-right: 1rem;
+            position: relative;
+            cursor: pointer;
+            
+            &__cart-quantity {
+                position: absolute;
+                display: flex;
+                justify-content: space-around;
+                width: 1.2rem;
+                height: 1.2rem;
+                color: white;
+                background: green;
+                top: -4px;
+                right: -7px;
+                border-radius: 50%;
+                font-size: 1rem;
+                font-family: $text-large;
+                // display: none;
+            }
+        }
+
+        &__profile {
+            display: none;
+        }
+    }
+
+    .fa {
+        // color: $primary-color;
+        font-size: $awesome-size;
+    }
+}
+
+.fa-times {
+    color: #A40C0A;
+}
+
+   .active {
+       font-weight: bold;
+   }
+  
+   .login-message {
+       position: absolute;
+       right: 1%;
+       top: 3px;
+       font-family: $text-small;
+       font-size: 14px;
+    }
+
+@media only screen and (min-width: 641px) {
+    .nav {
+        padding: 0 4rem;
+    }
+}
+
+@media only screen and (min-width: 1008px) {
+    .nav {
+
+        &__logo {
+            order: 1;
+        }
+
+        &__navmenu {
+            width: 60%;
+
+            &__wrapper {
+                display: inline-block;
+                position: relative;
+                width: 100%;
+                background: white;
+                padding: 0;
+
+                &__list {
+                    display: flex;
+
+                    &__item {
+                        list-style: none;
+                        margin: 0 1rem;
+
+                        a {
+                            color: $primary-color;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+
+            i {
+                display: none;
+            }
+        }
+
+        &__icons {
+            margin-top: 28px;
+
+            &__profile {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 auto;
+                cursor: pointer;
+
+                &__icon {
+                    text-align: center;
+                }
+
+                &__message {
+                    margin-top: 4px;
+                    font-size: $font-small;
+                    font-family: $text-small;
+                }
+            }
+        }
+    }
+    .login-message {
+        display: none;
+    }
+}

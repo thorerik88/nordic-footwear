@@ -1,0 +1,13 @@
+.info-header {
+    background-color: rgba(120, 191, 125, .1);
+    text-align: center;
+    padding: 1.5rem;
+
+    &--edit {
+        background-color: rgba(233, 208, 22, .1);
+    }
+
+    &--delete {
+        background-color: rgba(156, 25, 25, .1);
+    }
+}

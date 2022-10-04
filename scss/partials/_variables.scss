@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap');
+
+/*COLORS*/
+$primary-color: #003953;
+$secondary-color: #0477BF;
+$light-green: #78BF8D;
+$danger: #d9534f;
+
+/*FONTS*/
+$text-large: "Raleway", sans-serif;
+$text-small: "Montserrat", sans-serif;
+
+$font-large: 34px;
+$font-medium: 23px;
+$font-small: 16px;
+
+$font-large-tab: 37px;
+$font-medium-tab: 26px;
+$font-small-tab: 18px;
+
+$font-large-desktop: 41px;
+$font-medium-desktop: 28px;
+$font-small-desktop: 20px;
+
+
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+);
+
+$awesome-size: 25px;
+
+
+/*MIXIN*/
+@mixin flexCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name)
+}

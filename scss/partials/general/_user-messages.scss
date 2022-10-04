@@ -1,0 +1,22 @@
+.message-container {
+    font-family: $text-small;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.success, .warning, .error {
+    padding: .4rem;
+    color: white;
+}
+
+.success {
+    background-color: #26762C;
+}
+
+.warning {
+    background-color: #B74707;
+}
+
+.error {
+    background-color: #A40C0A;
+}

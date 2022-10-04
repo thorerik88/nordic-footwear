@@ -1,0 +1,42 @@
+.hero {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 281px;
+    height: auto;
+    padding: 3rem 0 0 0;
+    text-align: center;
+
+        &__header {
+            background-color: rgba(255,255,255,.4);
+            text-align: center;
+        }
+
+        &__btn {
+            background-color: $light-green;
+            display: inline-block;
+            margin-top: 2.5rem;
+        }
+
+        &__btn:hover {
+            background-color: white;
+        }
+}
+
+@media only screen and (min-width: 641px) {
+    .hero {
+        min-height: 350px; 
+    }
+}
+
+@media only screen and (min-width: 1008px) {
+    .hero {
+        min-height: 500px;
+        padding: 8rem 0 0 0;
+
+        &__btn {
+            font-size: $font-small-desktop;
+        }
+    }
+}

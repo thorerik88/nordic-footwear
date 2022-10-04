@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Nordic Footwear</title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <nav class="nav"></nav>
+
+    <div class="info-header">
+        <h2 class="info-header__header">Login</h2>
+    </div>
+    
+    <div class="form-wrapper">
+        <form class="form" action="">
+            <div class="message-container"></div>
+            <label for="username">Username
+                <input class="form__username" type="text" name="username" value="admin">
+                <div class="form__error username-error">Please enter a valid username</div>
+            </label>
+            <label for="password">Password
+                <input class="form__password" type="password" name="password" value="Pass1234">
+                <div class="form__error password-error">Please enter a valid password</div>
+            </label>
+            <input clss="form__submit" type="submit" value="Login">
+        </form>
+    </div>
+    
+    <div class="featured">
+        <h3>Featured products:</h3>
+        <div class="featured__wrapper"></div>
+    </div>
+    <footer class="footer-container"></footer>
+    <script src="js/script.js" type="module"></script>
+    <script src="js/login.js" type="module"></script>
+</body>
+</html>
