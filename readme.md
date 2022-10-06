@@ -30,9 +30,7 @@ npm install
 '''
 
 3. Open File:
-'''
 Open the file 'index.html' in your browser and start exploring
-'''
 
 ## Contact
 
