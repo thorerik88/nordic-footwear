@@ -29,6 +29,11 @@ git clone https://github.com/Noroff-FEU-Assignments/project-exam-2-thorerik88.gi
 npm install
 '''
 
+3. Open File:
+'''
+Open the file 'index.html' in your browser and start exploring
+'''
+
 ## Contact
 
 [My facebook page](https://www.facebook.com/profile.php?id=588541828)
