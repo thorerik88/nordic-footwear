@@ -4,14 +4,14 @@
 A simple overview of the use/purpose of the project.
 
 ## Description
-Purpose of this site is to build an e-commerce website.
+An e-commerce project to test the use of localstorage and API's, including multiple pages.
 
 - Design
 - Incl home, product list, product detail and cart pages
 - Admin pages
 - Responsive all devices
 
-## Build with
+## Built with
 - Vanilla coding
 - SASS
 - Bootstrap
@@ -20,7 +20,7 @@ Purpose of this site is to build an e-commerce website.
 ### Installing
 
 1. Clone the repo:
-''' bash
+'''
 git clone https://github.com/Noroff-FEU-Assignments/project-exam-2-thorerik88.git
 '''
 
