@@ -20,17 +20,17 @@ An e-commerce project to test the use of localstorage and API's, including multi
 ### Installing
 
 1. Clone the repo:
-'''
+```
 git clone https://github.com/Noroff-FEU-Assignments/project-exam-2-thorerik88.git
-'''
+```
 
 2. Install the dependencies:
-'''
+```
 npm install
-'''
+```
 
 3. Open File:
-Open the file 'index.html' in your browser and start exploring
+Open the file ```index.html``` in your browser and start exploring
 
 ## Contact
 
